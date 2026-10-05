@@ -38,12 +38,19 @@ repo: https://github.com/esthersjw/esther-design-system
 3. 如果任务同时包含多个场景，可以同时读取多个 reference 文件，不必只选一个。
 
 ### Step 3: 拷模板
-从 `assets/` 选择对应模板作为起点：
-- 教程型 → `assets/template-tutorial.html`
-- 活动页/Landing → `assets/template-landing.html`
-- App型/功能型 → `assets/template-app.html`
-- **图文卡片** → `assets/template-cards.html`
-
+优先从 `assets/` 中选择最接近当前任务的模板作为起点：
+- 教程页面 / 教学页面 / 科普页面
+  → `assets/template-tutorial.html`
+- 活动页 / Landing Page / 宣传页面
+  → `assets/template-landing.html`
+- App / 功能型页面 / 教学平台 / 工作台 / 互动工具
+  → `assets/template-app.html`
+- 图文卡片 / 内容卡片 / 社交媒体卡片
+  → `assets/template-cards.html`
+原则：
+- 优先基于模板修改，不从零开始重写。
+- 如果现有模板与任务不完全匹配，可以在保留品牌视觉规则的前提下调整结构。
+- 如果用户已经提供现成 HTML、网页代码或已有页面，则优先在用户现有内容上继续修改，不强制套用模板。
 **从模板开始改，不从零写。**
 
 ### Step 4: 选布局组合
