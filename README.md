@@ -1,6 +1,6 @@
-# Personal Design Skill
+# PP大王个人设计 Skill
 
-一套给 AI 看的个人品牌设计系统。
+一套属于PP大王的个人设计与教学视觉系统。
 
 **ESTHER不二** · [小红书](https://www.xiaohongshu.com/user/profile/55c6c7695894460904f87b47?m_source=pinpai) · [Twitter / X](https://x.com/SjwEsther)
 
