@@ -1,6 +1,6 @@
 ---
-name: esther-design-system
-description: 不二的个人IP设计系统。做HTML页面、个人网站、教程页面、介绍页面、landing page等任何前端设计时自动触发。包含品牌DNA和多个场景子规范。
+name:pp-design-system
+description: PP大王的个人设计与教学视觉系统。用于制作HTML页面、教学页面、课程网站、个人网站、介绍页面、Landing Page、图文卡片、公众号排版等设计任务。包含PP大王专属品牌DNA和不同场景的设计规范。
 author: ESTHER不二 (esthersjw)
 license: CC BY-NC-SA 4.0
 repo: https://github.com/esthersjw/esther-design-system
