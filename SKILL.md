@@ -14,8 +14,6 @@ repo: https://github.com/esthersjw/esther-design-system
 ## 使用方式（7步工作流）
 
 ### Step 1: 澄清需求
-向用户确认5个问题：
-Step 1：澄清需求
 根据任务需要确认以下信息；如果用户已经提供，则不要重复询问：
 1. 类型 —— 教程页面？教学页面？介绍/科普页面？活动页/Landing App/功能型页面？图文卡片？公众号排版？
 2. 使用对象 —— 给谁看？学生、教师、公众还是其他人群？是否有明确年龄或专业基础？
@@ -24,13 +22,20 @@ Step 1：澄清需求
 5. 硬约束 —— 必须保留什么内容？是否有指定尺寸、品牌色、课程视觉、设备适配或交互要求？
 
 ### Step 2: 读规范
-1. **必读** `brand-dna.md` — 确认品牌底层规范
-2. 根据类型选读场景文件：
-   - 教程型/介绍型/科普型 → `references/scene-tutorial.md`
-   - 活动页/分享会/Landing → `references/scene-landing.md`
-   - App型/功能型（看板/书架/Canvas） → `references/scene-app.md`
-   - **图文卡片/小红书图文/文章转卡片** → `references/scene-cards.md`
-   - **公众号排版/做分发** → `references/scene-wechat.md`
+1. 必读 `brand-dna.md`
+   - 确认 PP大王 的品牌底层规范、视觉气质、配色、排版和组件语言。
+2. 根据任务类型读取对应场景文件：
+   - 教程页面 / 教学页面 / 介绍页 / 科普页
+     → `references/scene-tutorial.md`
+   - 活动页 / 分享页 / Landing Page
+     → `references/scene-landing.md`
+   - App / 功能型页面 / 工作台 / 看板 / 工具页
+     → `references/scene-app.md`
+   - 图文卡片 / 小红书图文 / 文章转卡片
+     → `references/scene-cards.md`
+   - 公众号排版 / 微信图文
+     → `references/scene-wechat.md`
+3. 如果任务同时包含多个场景，可以同时读取多个 reference 文件，不必只选一个。
 
 ### Step 3: 拷模板
 从 `assets/` 选择对应模板作为起点：
