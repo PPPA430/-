@@ -33,7 +33,7 @@ Tab栏 / 侧边栏导航
   top: 0;
   z-index: 100;
   height: 56px;
-  background: var(--cream, #fefcf6);
+  background: var(--cream, #F3EFE6);
   border-bottom: 1px solid rgba(26,26,26,.06);
   display: flex;
   align-items: center;
@@ -75,8 +75,6 @@ Tab栏 / 侧边栏导航
 ---
 
 ## 🎨 色彩简化规则
-
-A## 🎨 色彩简化规则
 
 App / 功能型页面优先保证清晰、稳定和可操作性，色彩使用应比教程页更加克制。
 
@@ -142,7 +140,7 @@ App / 功能型页面优先保证清晰、稳定和可操作性，色彩使用�
   justify-content: center;
 }
 .modal-content {
-  background: var(--cream, #fefcf6);
+  background: var(--cream, #F3EFE6);
   border-radius: 16px;
   padding: clamp(24px, 3vw, 40px);
   max-width: 560px;
@@ -195,7 +193,7 @@ App / 功能型页面优先保证清晰、稳定和可操作性，色彩使用�
 ```css
 .canvas-grid {
   width: 100%; height: 100%;
-  background-image: radial-gradient(circle, rgba(74,124,201,0.13) 1.2px, transparent 1.2px);
+  background-image: radial-gradient(circle, rgba(135,149,122,0.13) 1.2px, transparent 1.2px);
   background-size: 28px 28px;
 }
 ```
@@ -223,7 +221,7 @@ App / 功能型页面优先保证清晰、稳定和可操作性，色彩使用�
 ```css
 .canvas-card {
   background: #fff;
-  border: 2px dashed rgba(74,124,201,0.35);
+  border: 2px dashed rgba(135,149,122,0.35);
   border-radius: 16px;
   padding: 1.25rem;
   box-shadow: 0 4px 16px rgba(0,0,0,.06);

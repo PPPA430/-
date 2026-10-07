@@ -194,7 +194,7 @@
 - `unobserve` after triggering（只触发一次）
 - 用 `.reveal-d1` ~ `.reveal-d5` 做 stagger（0.1s递增）
 - 尊重 `prefers-reduced-motion`
-- 选中文本高亮：`::selection { background: #F4D758; color: #1a1a1a; }`
+- 选中文本高亮：`::selection { background: #A6B57B; color: #425244; }`
 
 ### 动效原则
 - **只用 opacity + transform**，不要animate layout属性
