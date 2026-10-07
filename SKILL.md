@@ -3,7 +3,8 @@ name:pp-design-system
 description:PP大王的个人设计与教学视觉系统。用于制作HTML页面、教程页面、教学页面、课程网站、个人网站、介绍页面、科普页面、Landing Page、图文卡片、公众号排版等设计任务。包含PP大王专属品牌DNA、场景规范与页面模板。
 author: ESTHER不二 (esthersjw)
 license: CC BY-NC-SA 4.0
-repo: https://github.com/esthersjw/esther-design-system
+repo: https://github.com/PPPA430/-
+upstream: https://github.com/esthersjw/esther-design-system
 ---
 
 > © 2026 ESTHER不二 (esthersjw) | CC BY-NC-SA 4.0
