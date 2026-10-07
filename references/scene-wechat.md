@@ -27,10 +27,10 @@
 | 属性 | 值 |
 |------|-----|
 | 最大宽度 | 677px |
-| 底色 | `#fefcf6`（奶白） |
+| 底色 | `#F3EFE6`（奶白） |
 | 正文字号 | 18px |
 | 行高 | line-height: 2 |
-| 正文色 | `#1A1A2E`（墨色） |
+| 正文色 | `#425244`（墨色） |
 | 字体栈 | `-apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif` |
 | 标签 | 全部用 `<section>`，禁止 `<div>` |
 
@@ -40,12 +40,12 @@
 
 ```
 body (background:#f5f5f5)
-└── section (max-width:677px; margin:0 auto; background:#fefcf6; padding:44px 26px 40px)
-    ├── 红色 kicker
+└── section (max-width:677px; margin:0 auto; background:#F3EFE6; padding:44px 26px 40px)
+    ├── 木棕 kicker
     ├── 大标题（如有）
     ├── 引言金句
-    ├── 三色装饰条
-    ├── 引言区块（方案C：黄色渐变底）
+    ├── 品牌装饰条
+    ├── 引言区块（方案C：浅青苔底）
     ├── 章节 ×N（三件套头 + 内容 + 图片）
     ├── 三色分隔条（章节间）
     ├── ...
@@ -57,10 +57,10 @@ body (background:#f5f5f5)
 
 ## 🎨 组件样式
 
-### 红色 kicker（顶部标签）
+### 木棕 kicker（顶部标签）
 ```html
 <section style="text-align:center; margin-bottom:14px;">
-  <span style="font-size:13px; font-weight:bold; letter-spacing:5px; color:#E84A5F;">标签文字</span>
+  <span style="font-size:13px; font-weight:bold; letter-spacing:5px; color:#B4875C;">标签文字</span>
 </section>
 ```
 
@@ -77,45 +77,45 @@ body (background:#f5f5f5)
 ```html
 <section style="text-align:center; margin-bottom:40px; padding:50px 0 40px;">
   <!-- 中文标题按语义手动断行；英文、数字、专有名词使用 nowrap span 保持完整 -->
-  <p style="margin:0 0 12px; font-family:Georgia,'Songti SC',serif; font-size:32px; font-weight:900; color:#1A1A2E; line-height:1.5; word-break:normal; overflow-wrap:normal;">AI 时代，<br>学文科/艺术的人到底有什么优势？</p>
-  <p style="margin:0 0 24px; font-size:17px; color:#4A4A5A; line-height:1.8;">副标题</p>
+  <p style="margin:0 0 12px; font-family:Georgia,'Songti SC',serif; font-size:32px; font-weight:900; color:#425244; line-height:1.5; word-break:normal; overflow-wrap:normal;">AI 时代，<br>学文科/艺术的人到底有什么优势？</p>
+  <p style="margin:0 0 24px; font-size:17px; color:#667064; line-height:1.8;">副标题</p>
 </section>
 ```
 
 ### 引言金句（居中衬线）
 ```html
 <section style="text-align:center; margin-bottom:10px;">
-  <p style="margin:0; font-family:Georgia,'Songti SC',serif; font-size:21px; font-weight:900; line-height:1.9;">金句文字<br>第二行<span style="color:#2B7FD8;">蓝色关键词</span>。</p>
+  <p style="margin:0; font-family:Georgia,'Songti SC',serif; font-size:21px; font-weight:900; line-height:1.9;">金句文字<br>第二行<span style="color:#87957A;">鼠尾草关键词</span>。</p>
 </section>
 ```
 
-### 三色装饰条
+### 品牌装饰条
 ```html
 <section style="text-align:center; margin-bottom:36px;">
-  <span style="display:inline-block; width:36px; height:4px; background:#2B7FD8; border-radius:2px;"></span>
-  <span style="display:inline-block; width:18px; height:4px; background:#F4D758; border-radius:2px; margin-left:5px;"></span>
-  <span style="display:inline-block; width:8px; height:4px; background:#E84A5F; border-radius:2px; margin-left:5px;"></span>
+  <span style="display:inline-block; width:36px; height:4px; background:#87957A; border-radius:2px;"></span>
+  <span style="display:inline-block; width:18px; height:4px; background:#A6B57B; border-radius:2px; margin-left:5px;"></span>
+  <span style="display:inline-block; width:8px; height:4px; background:#B4875C; border-radius:2px; margin-left:5px;"></span>
 </section>
 ```
 
-### 引言区块（方案C：黄色渐变底）
+### 引言区块（方案C：浅青苔底）
 ```html
 <section style="margin-bottom:28px; padding:24px 22px; background:#FFF8E1; border-radius:16px;">
-  <p style="margin:0 0 14px; font-size:16px; line-height:2; color:#1A1A2E;">引言正文</p>
-  <p style="margin:0; font-size:16px; line-height:2; color:#1A1A2E;">第二段</p>
+  <p style="margin:0 0 14px; font-size:16px; line-height:2; color:#425244;">引言正文</p>
+  <p style="margin:0; font-size:16px; line-height:2; color:#425244;">第二段</p>
 </section>
 ```
 
 ### 章节头三件套
 
-教程/步骤类用四件套（含 STEP 标签），叙事类用三件套（装饰词 + 标题 + 黄条）：
+教程/步骤类用四件套（含 STEP 标签），叙事类用三件套（装饰词 + 标题 + 青苔绿短条）：
 
 **叙事类（推荐）：**
 ```html
 <section style="margin-bottom:52px;">
   <!-- 大淡色英文装饰词 -->
   <section style="margin-bottom:6px; overflow:visible;">
-    <span style="display:inline-block; font-family:Georgia,'Songti SC',serif; font-style:italic; font-size:68px; font-weight:bold; color:rgba(43,127,216,0.14); line-height:1; white-space:nowrap; word-break:keep-all; overflow-wrap:normal;">EnglishWord</span>
+    <span style="display:inline-block; font-family:Georgia,'Songti SC',serif; font-style:italic; font-size:68px; font-weight:bold; color:rgba(135,149,122,0.14); line-height:1; white-space:nowrap; word-break:keep-all; overflow-wrap:normal;">EnglishWord</span>
   </section>
   <!-- 衬线标题 -->
   <section style="margin-bottom:10px;">
@@ -123,10 +123,10 @@ body (background:#f5f5f5)
   </section>
   <!-- 黄色短条 -->
   <section style="margin-bottom:22px;">
-    <span style="display:inline-block; width:56px; height:6px; background:#F4D758; border-radius:3px;"></span>
+    <span style="display:inline-block; width:56px; height:6px; background:#A6B57B; border-radius:3px;"></span>
   </section>
   <!-- 正文内容 -->
-  <p style="margin:0 0 18px; font-size:18px; line-height:2; color:#1A1A2E;">段落文字</p>
+  <p style="margin:0 0 18px; font-size:18px; line-height:2; color:#425244;">段落文字</p>
 </section>
 ```
 
@@ -134,16 +134,16 @@ body (background:#f5f5f5)
 ```html
 <section style="margin-bottom:52px;">
   <section style="margin-bottom:6px; overflow:visible;">
-    <span style="display:inline-block; font-family:Georgia,'Songti SC',serif; font-style:italic; font-size:68px; font-weight:bold; color:rgba(43,127,216,0.14); line-height:1; white-space:nowrap; word-break:keep-all; overflow-wrap:normal;">01</span>
+    <span style="display:inline-block; font-family:Georgia,'Songti SC',serif; font-style:italic; font-size:68px; font-weight:bold; color:rgba(135,149,122,0.14); line-height:1; white-space:nowrap; word-break:keep-all; overflow-wrap:normal;">01</span>
   </section>
   <section style="margin-bottom:4px;">
-    <span style="font-size:13px; font-weight:bold; letter-spacing:4px; color:#2B7FD8;">STEP 1</span>
+    <span style="font-size:13px; font-weight:bold; letter-spacing:4px; color:#87957A;">STEP 1</span>
   </section>
   <section style="margin-bottom:10px;">
     <span style="font-family:Georgia,'Songti SC',serif; font-size:27px; font-weight:900;">标题</span>
   </section>
   <section style="margin-bottom:22px;">
-    <span style="display:inline-block; width:56px; height:6px; background:#F4D758; border-radius:3px;"></span>
+    <span style="display:inline-block; width:56px; height:6px; background:#A6B57B; border-radius:3px;"></span>
   </section>
   <!-- 内容 -->
 </section>
@@ -157,43 +157,43 @@ body (background:#f5f5f5)
 ### 图片占位（模板中使用）
 ```html
 <section style="width:100%; height:200px; border-radius:14px; margin-bottom:20px; background:#FFF8E1; display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden;">
-  <span style="font-family:Georgia,serif; font-size:120px; font-weight:bold; color:rgba(244,215,88,0.3); position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);">IMG</span>
-  <span style="font-size:13px; color:#8A8A9A; position:relative; z-index:1;">配图位置</span>
+  <span style="font-family:Georgia,serif; font-size:120px; font-weight:bold; color:rgba(166,181,123,0.3); position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);">IMG</span>
+  <span style="font-size:13px; color:#8D948A; position:relative; z-index:1;">配图位置</span>
 </section>
 ```
 
 ### 图注（可选）
 ```html
 <section style="text-align:center; margin-bottom:20px;">
-  <span style="font-size:13px; color:#8A8A9A;">△ 图片说明文字</span>
+  <span style="font-size:13px; color:#8D948A;">△ 图片说明文字</span>
 </section>
 ```
 
 ### 荧光笔高亮（加粗文字）
 ```html
-<span style="background:linear-gradient(transparent 60%, #F4D758 60%); font-weight:bold; padding:0 2px;">高亮文字</span>
+<span style="background:linear-gradient(transparent 60%, #A6B57B 60%); font-weight:bold; padding:0 2px;">高亮文字</span>
 ```
 每节 1-3 处，不贪多。对应源文档中 `**加粗**` 的文字。
 
 ### 三色分隔条（章节之间）
 ```html
 <section style="text-align:center; margin-bottom:56px;">
-  <span style="display:inline-block; width:36px; height:4px; background:#2B7FD8; border-radius:2px;"></span>
-  <span style="display:inline-block; width:18px; height:4px; background:#F4D758; border-radius:2px; margin-left:5px;"></span>
-  <span style="display:inline-block; width:8px; height:4px; background:#E84A5F; border-radius:2px; margin-left:5px;"></span>
+  <span style="display:inline-block; width:36px; height:4px; background:#87957A; border-radius:2px;"></span>
+  <span style="display:inline-block; width:18px; height:4px; background:#A6B57B; border-radius:2px; margin-left:5px;"></span>
+  <span style="display:inline-block; width:8px; height:4px; background:#B4875C; border-radius:2px; margin-left:5px;"></span>
 </section>
 ```
 
 ### 结尾金句
 ```html
 <section style="text-align:center; margin:48px 0 36px;">
-  <span style="font-family:Georgia,'Songti SC',serif; font-style:italic; font-size:56px; color:rgba(43,127,216,0.18); line-height:1;">"</span>
+  <span style="font-family:Georgia,'Songti SC',serif; font-style:italic; font-size:56px; color:rgba(135,149,122,0.18); line-height:1;">"</span>
   <p style="margin:8px 0 6px; font-family:Georgia,'Songti SC',serif; font-size:21px; font-weight:900; line-height:1.8;">核心金句文字</p>
-  <p style="margin:0 0 16px; font-size:14px; color:#8A8A9A;">副句 / 补充</p>
+  <p style="margin:0 0 16px; font-size:14px; color:#8D948A;">副句 / 补充</p>
   <section style="text-align:center;">
-    <span style="display:inline-block; width:36px; height:4px; background:#2B7FD8; border-radius:2px;"></span>
-    <span style="display:inline-block; width:18px; height:4px; background:#F4D758; border-radius:2px; margin-left:5px;"></span>
-    <span style="display:inline-block; width:8px; height:4px; background:#E84A5F; border-radius:2px; margin-left:5px;"></span>
+    <span style="display:inline-block; width:36px; height:4px; background:#87957A; border-radius:2px;"></span>
+    <span style="display:inline-block; width:18px; height:4px; background:#A6B57B; border-radius:2px; margin-left:5px;"></span>
+    <span style="display:inline-block; width:8px; height:4px; background:#B4875C; border-radius:2px; margin-left:5px;"></span>
   </section>
 </section>
 ```
@@ -202,8 +202,8 @@ body (background:#f5f5f5)
 
 ```html
 <section style="text-align:center; padding:20px 0 0;">
-  <p style="margin:0 0 4px; font-size:15px; font-weight:bold; color:#1A1A2E;">ESTHER不二</p>
-  <p style="margin:0; font-size:13px; color:#8A8A9A; line-height:1.8;">▪️在AI时代认真生活的女生｜INTJ<br>▪️跟Agent搭档的第1年</p>
+  <p style="margin:0 0 4px; font-size:15px; font-weight:bold; color:#425244;">ESTHER不二</p>
+  <p style="margin:0; font-size:13px; color:#8D948A; line-height:1.8;">▪️在AI时代认真生活的女生｜INTJ<br>▪️跟Agent搭档的第1年</p>
 </section>
 ```
 
@@ -218,7 +218,7 @@ body (background:#f5f5f5)
 - `## 标题` → 章节头三件套
 - `### 小标题` → 加粗 18px 段落
 - `---` → 三色分隔条
-- `> 引用` → 引言区块（方案C黄色渐变底）
+- `> 引用` → 引言区块（方案C浅青苔底）
 - 普通段落 → `<p>` 标签
 
 ### 叙事长文的章节装饰词
@@ -260,9 +260,9 @@ def img_to_base64(path, max_width=1080, quality=72):
 
 - [ ] 全部用 `<section>` 标签，0 个 `<div>`
 - [ ] 全内联样式，无 `<style>` 标签
-- [ ] 底色 `#fefcf6`，max-width 677px
+- [ ] 底色 `#F3EFE6`，max-width 677px
 - [ ] 正文 18px，line-height:2
-- [ ] 章节头三件套完整（装饰词 + 标题 + 黄条）
+- [ ] 章节头三件套完整（装饰词 + 标题 + 青苔绿短条）
 - [ ] 加粗文字 → 荧光笔高亮
 - [ ] 图片 width:100%; border-radius:14px
 - [ ] 三色分隔条在章节之间
